@@ -8,7 +8,7 @@ import re as regex
 from openpyxl import load_workbook
 
 
-path = '/Users/panc/Desktop/ENCCO销售实战营——分组积分情况.xlsx'
+path = './ENCCO销售实战营——分组积分情况.xlsx'
 data = pd.read_excel(path)
 
 wb = load_workbook(filename = path)
